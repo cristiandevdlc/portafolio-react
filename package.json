@@ -1,6 +1,6 @@
 {
   "homepage":  "http://cristiandevdlc.github.io/portafolio-react",
-  "name": "portfolio-react",
+  "name": "portafolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
