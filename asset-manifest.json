@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portafolio-react/static/css/main.d9bbebf3.css",
+    "main.js": "/portafolio-react/static/js/main.5d01ad7d.js",
+    "static/media/fish.mp4": "/portafolio-react/static/media/fish.f9489e922dbc4e1bb621.mp4",
+    "static/media/fondo.jpg": "/portafolio-react/static/media/fondo.82961398b935efcab9bf.jpg",
+    "static/media/cv.png": "/portafolio-react/static/media/cv.054addf222931b44cbed.png",
+    "static/media/fish2.jpeg": "/portafolio-react/static/media/fish2.2e518bdefc22feb64a12.jpeg",
+    "index.html": "/portafolio-react/index.html",
+    "main.d9bbebf3.css.map": "/portafolio-react/static/css/main.d9bbebf3.css.map",
+    "main.5d01ad7d.js.map": "/portafolio-react/static/js/main.5d01ad7d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9bbebf3.css",
+    "static/js/main.5d01ad7d.js"
+  ]
+}
