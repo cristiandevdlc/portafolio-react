@@ -1,7 +1,21 @@
 import React, { useState } from 'react';
-import fish from '../img/components2/fish2.jpeg';
-import videoFish from '../img/components2/fish.mp4';
 import Modal from './Modal';
+import cvReact from '../img/proyectos/cv-react.png';
+import cvHTML from '../img/proyectos/cv.png';
+import ViescaSiller from '../img/proyectos/ViescaSiller.png';
+import SistemaPHP from '../img/proyectos/SistemaPHP.png';
+import SAWEB from '../img/proyectos/SAWEB.png';
+import VideoViescaSiller from '../img/proyectos/ViescaSiller.mp4';
+import VideoSistemaPHP from '../img/proyectos/SistemaPHP.mp4';
+import datatable from '../img/components2/datatable.png';
+import fish from '../img/components2/fish2.jpeg';
+import tenis from '../img/components2/teniscard.png';
+import buscador from '../img/components2/buscador.png';
+import login from '../img/components2/login.png';
+import videoFish from '../img/components2/fish.mp4';
+import videoTenis from '../img/components2/teniscard.mp4';
+import videoBuscador from '../img/components2/buscador.mp4';
+import videoLogin from '../img/components2/login.mp4';
 
 const Projects = () => {
   const [selectedItem, setSelectedItem] = useState(null);
@@ -9,23 +23,88 @@ const Projects = () => {
 
   const projects = [
     {
-      name: 'Save The Fish',
-      description: 'Descripción detallada del Proyecto 1, mostrando las funcionalidades clave y el impacto.',
-      image: fish,
-      video: videoFish,
-      techStack: ['React', 'Laravel', 'Tailwind CSS'],
+      name: 'Curriculum web',
+      description: 'curriculum web con portafolio',
+      image: cvReact,
+      image: cvReact,
+      techStack: ['React'],
+      sourceCode: 'https://github.com/usuario/proyecto1',
+    },
+    {
+      name: 'Sistema Administrador WEB',
+      description: 'Sistema administration web con opción de agregar catalogos y mostrarlos por rol',
+      image: SAWEB,
+      image: SAWEB,
+      techStack: ['React, laravel'],
+      sourceCode: 'https://github.com/usuario/proyecto1',
+    },
+    {
+      name: 'Landing Page',
+      description: 'Landing Page de productos',
+      image: ViescaSiller,
+      video: VideoViescaSiller,
+      techStack: ['HTML', 'CSS', 'JavaScript'],
+      sourceCode: 'https://github.com/usuario/proyecto1',
+    },
+    {
+      name: 'Sistema de inventario',
+      description: 'Es un sistema de inventario para registrar productos',
+      image: SistemaPHP,
+      video: VideoSistemaPHP,
+      techStack: ['PHP', 'MySql'],
+      sourceCode: 'https://github.com/usuario/proyecto1',
+    },
+    {
+      name: 'Curriculum web',
+      description: 'curriculum web con portafolio',
+      image: cvHTML,
+      image: cvHTML,
+      techStack: ['HTML', 'CSS', 'Javascript'],
       sourceCode: 'https://github.com/usuario/proyecto1',
     },
   ];
 
   const components = [
     {
-      name: 'Componente 1',
-      description: 'Descripción del Componente 1 y su funcionalidad.',
+      name: 'Salva el Pez',
+      description: 'Abre la llave para que el pez pueda nadar.',
       image: fish,
       video: videoFish,
-      techStack: ['React', 'JavaScript'],
-      sourceCode: 'https://github.com/usuario/componente1',
+      techStack: ['React','CSS'],
+      sourceCode: 'https://github.com/usuario/proyecto1',
+    },
+   
+    {
+      name: 'Tenis Card',
+      description: 'Cards animados sobre un ecommerce.',
+      image: tenis,
+      video: videoTenis,
+      techStack: ['React','CSS'],
+      sourceCode: 'https://github.com/usuario/proyecto1',
+    },
+    {
+      name: 'Buscador',
+      description: 'buscador en tiempo real con animación.',
+      image: buscador,
+      video: videoBuscador,
+      techStack: ['React','CSS'],
+      sourceCode: 'https://github.com/usuario/proyecto1',
+    },
+    {
+      name: 'Login',
+      description: 'Login animado.',
+      image: login,
+      video: videoLogin,
+      techStack: ['React','CSS'],
+      sourceCode: 'https://github.com/usuario/proyecto1',
+    },
+    {
+      name: 'DataTable',
+      description: 'Componente de tabla dinamica.',
+      image: datatable,
+      image: datatable,
+      techStack: ['React'],
+      sourceCode: 'https://github.com/usuario/proyecto1',
     },
   ];
 
